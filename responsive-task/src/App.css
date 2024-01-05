@@ -1,0 +1,897 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#logo{
+  max-height: 30px;
+  max-width: 54px;
+}
+.custom-navbar {
+ 
+  border-bottom: 1px solid rgba(204, 204, 204, 0.2); 
+}
+.custom-navbar .doubleButton .custom-toggle-button {
+  background-color: white; 
+  color: #000000; 
+  border-color:white 
+}
+.custom-navbar .doubleButton .custom-toggle-button2 {
+  background-color: orange; 
+  color: #000000; 
+  border-color:white 
+}
+
+
+
+
+
+
+
+
+
+
+
+.slogan{
+  padding: 0px 0px;
+  height: 380px;
+}
+
+.title{
+  margin-top: 5%;
+  display: flex;
+  justify-content:  center;
+  font-size: 600%;
+}
+.title2{
+color: #828282;
+margin: 2% 0 0 22%;
+max-width: 766px;
+text-align: center;
+font-family: Source Sans Pro;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; 
+}
+.arrow{
+margin-top: -20%;
+margin-right: -65%;
+}
+@media (max-width: 768px) {
+  .title{
+    font-size: 250%;
+  }
+  .title2{
+    margin-right: 25%;
+  }
+  .arrow {
+    display: none;
+  }
+}
+
+
+
+
+
+.inputForm{
+  max-width: 45%;
+  height: 90px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: -46%;
+}
+#searchIcon{
+  height: 150px;
+  margin-top: -10%;
+
+}
+
+
+
+
+
+
+
+
+
+#fontPhoto2{
+  width: 100%;
+  height: auto;
+  display: block; 
+  margin: 0 auto;
+}
+
+
+.InfoPart{
+  margin-top: 45%;
+}
+.context1{
+  
+    color: #112B3C;
+font-size: 74px;
+font-style: normal;
+font-weight: bold;
+line-height: 100%;
+  text-align: left;
+}
+.context2{
+  color: #828282;
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  text-align: left;
+}
+.number{
+  margin-top: 15%;
+  color: #F66B0E;
+  font-family: Source Sans Pro;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  text-align: left;
+
+}
+.baslik{
+  color: #000;
+font-family: Source Sans Pro;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%;
+text-align: left;
+
+}
+.paragraph{
+  margin-top: 5%;
+  color: #BDBDBD;
+font-family: Source Sans Pro;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+text-align: left;
+}
+
+#kanape{
+  max-width: 270px;
+  margin-top: 25px;
+}
+.kanape1{
+  margin-top: 35%;
+}
+@media (max-width: 767px) {
+  .leftSide {
+    padding: 10px;
+  }
+
+  .context1 {
+    font-size: 1.5em;
+  }
+
+  .context2 {
+    font-size: 1em;
+  }
+
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .kanape {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .InfoPart{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .baslik{
+    color: #000;
+  font-family: Source Sans Pro;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  text-align: left;
+  
+  }
+  .rightSide{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+.partProducts{
+margin-top: 5%;
+color: #112B3C;
+text-align: center;
+font-family: Source Sans Pro;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; 
+}
+.butonsSeven{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+}
+.butonsSeven .buttonsProducts{
+  margin-left: 1%;
+font-size: 120%;
+font-family: Source Sans Pro;
+}
+.butonsSeven .buttonsProducts:hover{
+  background-color: transparent;
+  color: #F66B0E;
+
+
+}
+@media (max-width: 767px) {
+  .buttonsProducts{
+   max-width: 11%;
+  }
+  
+}
+/* buraya geri don */
+.shop{
+width: 90%;
+height: 630px;
+}
+.boxProduct{
+  z-index: -1;
+  width: 120px;
+height: 180px;
+flex-shrink: 0;
+background: #FFF8F0;
+}
+.rowProduct1{
+  padding-top: 5%;
+}
+.rowProduct2{
+  padding-top: 5%;
+}
+#furniture{
+  margin-left: -20%;
+  z-index: 1;
+  padding-top: -40px;
+  height: 70%;
+  margin-top: -20%;
+}
+#arrowProduct{
+padding-top: 50% ;
+margin-right: -30%;
+}
+.nameFurniture{
+  text-align: left;
+  margin-top: -20%;
+  margin-right: 50%;
+color: #112B3C;
+font-family: Source Sans Pro;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%; 
+}
+.priceFurniture{
+  text-align: left;
+  margin-top: -8%;
+  margin-right: 58%;
+  color: #112B3C;
+font-family: Source Sans Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+}
+
+
+
+
+
+
+.customers{
+  background-color: #112B3C;
+  height: 800px;
+}
+.titleCustomer{
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  padding-top: 5%;
+  padding-right: 35%;
+}
+
+#personImage{
+  padding-left: 29%;
+  padding-top: 5%;
+}
+#star {
+  margin-top: -15%;
+  margin-right: 9%;
+}
+#quote-up{
+  
+  align-content: start;
+  padding-right: 100%;
+  padding-top: 15%;
+}
+.servise{
+  text-align: left;
+  margin-right: 20%;
+  color: #FFF;
+  font-family: Source Sans Pro;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.comment{
+  padding-top: 2%;
+  text-align: left;
+color: rgba(255, 255, 255, 0.80);
+font-family: Source Sans Pro;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; 
+}
+
+.nameOfCustomer{
+  padding-top: 2%;
+  text-align: left;
+  color: #F66B0E;
+font-family: Source Sans Pro;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; 
+}
+.titleOfCustomer{
+  text-align: left;
+  color: rgba(255, 255, 255, 0.80);
+font-family: Source Sans Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; 
+}
+@media (max-width: 767px) {
+  .oneOfTwo{
+    display: none;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+.oneOf2{
+  padding-top: 5%;
+}
+.cImg{
+  padding-left: 3%;
+}
+.contactUs{
+  padding-top: 15%;
+  text-align: left;
+  color: #112B3C;
+  font-family: Source Sans Pro;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+.commentContact{
+  text-align: left;
+
+  color: #828282;
+  font-family: Source Sans Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+}
+.form2{
+  padding-top: 3%;
+}
+.formLabel{
+  color: #828282;
+font-family: Source Sans Pro;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 32px */
+}
+.formLabel{
+  padding-top: 10px;
+}
+div.contact .sendMessage {
+  background-color:#F66B0E;
+  color: #ffffff;
+  border: none;
+}
+@media (max-width: 767px) {
+  .oneOf2{
+    display: none;
+  }
+  
+}
+
+
+
+
+
+
+.footer{
+background: #FFF8F0;
+margin-top: 5%;
+}
+.footerContainer{
+  padding-top: 4%;
+}
+#footerLogo{
+  margin-left: -85%
+}
+.footerContext{
+  text-align: left;
+  color: #112B3C;
+font-family: Source Sans Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%; /* 32px */
+}
+
+.labelFooter{
+  text-align: left;
+  color: #112B3C;
+font-family: Source Sans Pro;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 160%; 
+}
+.infoCompany{
+  color: #112B3C;
+font-family: Source Sans Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 2% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.App {
+  text-align: center;
+}
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+
+
+
+/* -----------------ebay--------- */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.navbarScroll{
+  display: flex;
+}
+.searchInput{
+  max-width: 40%;
+  margin-left: 10%;
+}
+#iconNav{
+  padding-left: 3%;
+}
+#dartNav1{
+  z-index: 2;
+  margin-left: -1%;
+  margin-bottom: 1%;
+}
+#dartNav2{
+  z-index: 2;
+  margin-left: -1%;
+  margin-bottom: 1%;
+}
+.nameNav{
+  color: var(--Main-color, #2F294D);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 1%;
+}
+.nameNavPrice{
+  color: blue;
+  margin-top: 2%;
+  margin-left: -3%;
+}
+.DropNav{
+  margin-left: 1%;
+}
+#PhotoNav{
+  margin-left: 3%;
+}
+.butonCatagories{
+margin-left: 3%;
+}
+.navbar{
+  border-radius: 10%;
+}
+@media (max-width: 767px) {
+  .navbar{
+    display: flex;
+    text-align: justify;
+  }
+  .nameNavPrice{
+    display: none;
+  }
+  .searchInput{
+    max-width: 30%;
+    margin-left: 30%;
+  }
+ 
+}
+
+
+
+
+
+
+
+
+
+.likeHeader{
+  height: 50px;
+  display: flex;
+}
+.imgHeader1{
+z-index: 0;
+height: 25px;
+}
+.imgHeader2{
+z-index: 1;
+height: 40px;
+
+}
+.textHeader1{
+  color: #2F294D;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+  display: inline-block;
+  white-space: nowrap;
+}
+.textHeader2{
+  color: var(--Main-Color, #0064D2);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+  white-space: nowrap;
+}
+.textHeader3{
+  color: var(--Main-Color, #0064D2);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+  white-space: nowrap;
+}
+  .colHeader{
+    display: flex;
+    margin-left: 10%;
+  }
+.textHeader {
+  padding-top: 2%;
+  padding-left: 5%;
+}
+@media (max-width: 767px) {
+  .likeHeader{
+    display: inline-block;
+    
+  }
+  .colHeader{
+    display: inline-block;
+    margin-left: 10%;
+  }
+  .hrHeader{
+    margin-top: 30%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+.backgroudBox{
+  padding-right: -10%;
+}
+.infoIphone{
+  color: #2F294D;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+flex-shrink: 0;
+text-align: left;
+}
+.Starlight{
+  margin-bottom: 3%;
+  background-color: lightblue;
+}
+.shortInfo{
+  color: #2F294D;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+opacity: 0.5;
+}
+.star01{
+  font-size: 15px;
+}
+.point{
+  color: #2F294D;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: fit-content;
+}
+.reviews{
+  left: 0;
+  align-items: start;
+  text-align: left;
+  color: #2F294D;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+opacity: 0.5;
+}
+.textReviews{
+  margin-left: -95%;
+}
+.dollar{
+  color: #2F294D;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+opacity: 0.7;
+}
+.five100{
+  color: #2F294D;
+font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: -100%;
+}
+.freeReturn{
+  color: var(--Main-color, #2F294D);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: -95%;
+}
+.commentIphone{
+  color: var(--Main-Color, #0064D2);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+Col .addToCard{
+  margin-left: -60%;
+  
+}
+@media (max-width: 1242px) {
+#backgroudBox{
+  display: none;
+}
+.iphone{
+  padding-top: 12%;
+  margin-left: -30%;
+  justify-content: center;
+}
+}
+
+
+
+
+
+
+
+
+
+
+.buttonsHorizontal {
+  height: 70px;
+  margin-top: 6%;
+  background: var(--Main-Color, #0064D2);
+  margin-left: 0;
+  opacity: 0.6;
+}
+
+.buttonH {
+  padding-left: 5%;
+  padding-top: 2%;
+  color: var(--Main-color, #2F294D);
+  font-family: 'SF UI Text', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.32px;
+  opacity: 1; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.backIphone{
+ 
+  border-radius: 24px;
+opacity: 0.1;
+background: var(--Main-Color, #0064D2);
+}.itemsS{
+  color: var(--Main-color, #1E1F4B);
+font-family: SF UI  Text;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 0.48px;
+padding-top: 5%;
+padding-left: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.belowArray{
+  margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#logoFooter{
+  
+  margin-top: 15%;
+}
+.titleFooterOne{
+  margin-top: 15%;
+  color: var(--Black, #253D4E);
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.titleFooterBelow{
+  color: var(--Black, gray);
+font-family: Quicksand;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.lastFooterBelow{
+  margin-left: 20%;
+  color: var(--Black, gray);
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
